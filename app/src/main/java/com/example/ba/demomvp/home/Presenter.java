@@ -1,16 +1,16 @@
-package com.example.ba.demomvp.main;
+package com.example.ba.demomvp.home;
 
 import android.content.Context;
 
 import com.example.ba.demomvp.data.entity.Song;
 import com.example.ba.demomvp.data.internal.DataManager;
 
-public class Presenter implements MainContract.Present {
+public class Presenter implements HomeContract.Present {
     private Context mContext;
     private DataManager mManager;
-    private MainContract.View mView;
+    private HomeContract.View mView;
 
-    public void setView(MainContract.View view) {
+    public void setView(HomeContract.View view) {
         this.mView = view;
     }
 

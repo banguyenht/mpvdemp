@@ -1,10 +1,10 @@
-package com.example.ba.demomvp.main;
+package com.example.ba.demomvp.home;
 
 import com.example.ba.demomvp.data.entity.Song;
 
 import java.util.List;
 
-public interface MainContract {
+public interface HomeContract {
     interface View {
         void onUpdateUi(List<Song> songList);
     }
