@@ -1,4 +1,4 @@
-package com.example.ba.demomvp.main;
+package com.example.ba.demomvp.home;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,12 +7,12 @@ import android.support.v7.widget.RecyclerView;
 
 import com.example.ba.demomvp.R;
 import com.example.ba.demomvp.data.entity.Song;
-import com.example.ba.demomvp.main.adapter.SongAdapter;
+import com.example.ba.demomvp.home.adapter.SongAdapter;
 
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements SongAdapter.ISongAdapter,
-        MainContract.View {
+        HomeContract.View {
     private RecyclerView mRecyclerView;
     private SongAdapter mAdapter;
     private Presenter mPresenter;
