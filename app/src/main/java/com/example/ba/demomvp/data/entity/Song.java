@@ -5,7 +5,6 @@ public class Song {
     private String mArtist;
     private String mPath;
 
-
     public Song() {
     }
 
@@ -24,6 +23,7 @@ public class Song {
     public void setName(String mame) {
         this.mName = mame;
     }
+
     public String getPath() {
         return mPath;
     }
